@@ -6,6 +6,7 @@ RUN apk add --update --no-cache --virtual=.deps alpine-sdk ruby-dev libmaxminddb
       fluent-plugin-geoip \
       fluent-plugin-record-reformer \
       fluent-plugin-resolv-filter \
+      fluent-plugin-cloudwatch-logs \
       geoip2_c \
       fluent-plugin-slack \
      --no-rdoc --no-ri && \
